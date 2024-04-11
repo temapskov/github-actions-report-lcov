@@ -132,7 +132,7 @@ async function genhtml(coverageFiles, tmpPath) {
 }
 
 async function mergeCoverages(coverageFiles, tmpPath) {
-  // This is broken for some reason:
+  //This is broken for some reason:
   //const mergedCoverageFile = path.resolve(tmpPath, 'lcov.info');
   const mergedCoverageFile = tmpPath + '/lcov.info';
   const args = [];
